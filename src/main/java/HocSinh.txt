@@ -1,5 +1,6 @@
 Chiêu # 2003/06/08 # Hải Phòng # Phường Nghĩa Xá, Quận Lê Chân # 8 # 7 # 6
 Long # 2003/06/08 # Trà Vinh # Xã Hiếu Tử, Huyện Tiểu Cần # 9 # 10 # 9
+Nam # 2003/06/08 # Quảng Ngãi # Xã Hiếu Tử, Huyện Tiểu Cần # 9 # 10 # 9
 Phi # 2003/06/08 # Bến Tre # 777 Hàm Rồng # 8 # 4 # 5
 Quyết # 2003/06/08 # Bến Tre # Xã An Định, Huyện Mỏ Cày Nam # 9 # 7 # 6.5
 Tuyết # 2003/04/08 # Bắc Ninh # Xã Trừng Xá, Huyện Lương Tài # 10 # 7.5 # 6

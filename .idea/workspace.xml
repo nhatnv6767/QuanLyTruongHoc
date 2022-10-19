@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="main">
+    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="ok chua nhi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GiaoVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiaoVien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GiaoVien.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiaoVien.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HocSinh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HocSinh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HocSinh.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nhap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Nhap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThanhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThanhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TruongHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TruongHoc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666191767848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ok chua nhi">
+      <created>1666194534014</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666194534014</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +183,8 @@
     <MESSAGE value="Truong Hoc 2" />
     <MESSAGE value="Truong Hoc 3" />
     <MESSAGE value="main" />
-    <option name="LAST_COMMIT_MESSAGE" value="main" />
+    <MESSAGE value="ok chua nhi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok chua nhi" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -32,6 +32,7 @@ public class TruongHoc {
 
     }
 
+    // tạo dữ liệu từ file
     public void taoDuLieu() {
         this.objDSHocSinh = new DanhSachHocSinh();
         this.objDSHocSinh.taoDuLieu();
@@ -40,6 +41,7 @@ public class TruongHoc {
         this.objDSGiaoVien.taoDuLieu();
     }
 
+    // nhập dữ liệu bằng tay
     public void nhap() {
         ThanhVien thanhVien;
         while (true) {
@@ -47,7 +49,7 @@ public class TruongHoc {
             System.out.println("2. -> Giáo viên");
             System.out.println("3. -> Thoát");
             int choice = Nhap.inputInt("Mời lựa chọn: ");
-            int temptChoice = 0;
+//            int temptChoice = 0;
             switch (choice) {
                 case 1:
                     thanhVien = new HocSinh();
@@ -71,6 +73,7 @@ public class TruongHoc {
         }
     }
 
+    // Học Sinh
     public void xuatDSHocSinh() {
         this.objDSHocSinh.xuat();
     }
@@ -83,14 +86,7 @@ public class TruongHoc {
         this.objDSHocSinh.tinhDiemTB();
     }
 
-    public void xuatDSGiaoVien() {
-        this.objDSGiaoVien.xuat();
-    }
-
-    public void tinhThamNien() {
-        this.objDSGiaoVien.tinhThamNien();
-    }
-
+    // tìm học sinh có đtb cao nhất
     public float timDTBMaxHocSinh() {
         float dtbMaxHocSinh = 0;
         if (this.objDSHocSinh.getListHocSinh().size() != 0) {
@@ -104,6 +100,7 @@ public class TruongHoc {
         return dtbMaxHocSinh;
     }
 
+    // danh sách các học sinh có dtb cao nhất
     public ArrayList<HocSinh> timDSHocSinhDTBMax() {
         float dtbMaxHS = timDTBMaxHocSinh();
         ArrayList<HocSinh> dsDTBMax = new ArrayList<HocSinh>();
@@ -115,6 +112,7 @@ public class TruongHoc {
         return dsDTBMax;
     }
 
+    // sắp xếp DTB giảm dần theo quicksort
     public static void sapXepDTBGiamDan(ArrayList<HocSinh> dsHocSinh, int left, int right) {
         float pivot = dsHocSinh.get((left + (right - left) / 2)).getDiemTB();
         int i = left;
@@ -145,6 +143,7 @@ public class TruongHoc {
     }
 
 
+    // Săp xếp theo ABC dùng Bubble Sort
     public void bubbleSortTenHS() {
         ArrayList<HocSinh> dsHocSinh = this.objDSHocSinh.getListHocSinh();
         for (int i = 0; i < dsHocSinh.size() - 1; i++) {
@@ -154,9 +153,20 @@ public class TruongHoc {
                 }
             }
         }
-
     }
 
+
+    // Giáo viên
+    public void xuatDSGiaoVien() {
+        this.objDSGiaoVien.xuat();
+    }
+
+    public void tinhThamNien() {
+        this.objDSGiaoVien.tinhThamNien();
+    }
+
+
+    // Giáo viên có thâm niên cao nhất
     public ArrayList<GiaoVien> timGVThamNienCaoNhat() {
         ArrayList<GiaoVien> listGVThamNienCaoNhat = new ArrayList<GiaoVien>();
         int viTriMax = 0;

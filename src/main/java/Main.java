@@ -7,6 +7,7 @@ public class Main {
     }
 
     public static void inMenu() {
+        System.out.println("\n*** Chương trình QUẢN LÝ TRƯỜNG HỌC, mời lựa chọn các chức năng ***");
         System.out.println("1. Nhập dữ liệu");
         System.out.println("2. Xuất danh sách học sinh");
         System.out.println("3. Xuất danh sách giáo viên");
@@ -46,11 +47,13 @@ public class Main {
                     System.out.println("*********** Danh sách học sinh ***********");
                     System.out.println(tieuDeHS);
                     th.xuatDSHocSinh();
+                    System.out.println("**************** KẾT THÚC ****************");
                     break;
                 case 3:
                     System.out.println("*********** Danh sách giáo viên ***********");
                     System.out.println(tieuDeGV);
                     th.xuatDSGiaoVien();
+                    System.out.println("**************** KẾT THÚC ****************");
                     break;
                 case 4:
                     System.out.println("*********** Giáo viên có thâm niên cao nhất ***********");
@@ -59,6 +62,7 @@ public class Main {
                     for (GiaoVien gv : dsGiaoVienThamNienMax) {
                         gv.xuat();
                     }
+                    System.out.println("************************ KẾT THÚC ***********************");
                     break;
                 case 5:
                     System.out.println("*********** Giáo viên có 5 năm kinh nghiệm và thuộc khối tự nhiên ***********");
@@ -67,11 +71,13 @@ public class Main {
                     for (GiaoVien gv : dsGiaoVien) {
                         gv.xuat();
                     }
+                    System.out.println("************************ KẾT THÚC ***********************");
                     break;
                 case 6:
                     System.out.println("*********** Điểm trung bình cao nhất của học sinh ***********");
                     float tbMaxHS = th.timDTBMaxHocSinh();
                     System.out.println("ĐTB cao nhất là: " + tbMaxHS);
+                    System.out.println("************************ KẾT THÚC ***********************");
                     break;
                 case 7:
                     System.out.println("*********** Học sinh có ĐTB cao nhất ***********");
@@ -80,18 +86,21 @@ public class Main {
                     for (HocSinh hs : dsHocSinhDTBMax) {
                         hs.xuat();
                     }
+                    System.out.println("************************ KẾT THÚC ***********************");
                     break;
                 case 8:
                     System.out.println("*********** Danh sách học sinh theo DTB giảm dần ***********");
                     System.out.println(tieuDeHS);
                     th.quickSortDTB();
                     th.xuatDSHocSinh();
+                    System.out.println("************************ KẾT THÚC ***********************");
                     break;
                 case 9:
                     System.out.println("*********** Danh sách học sinh theo thứ tự ABC ***********");
                     System.out.println(tieuDeHS);
                     th.bubbleSortTenHS();
                     th.xuatDSHocSinh();
+                    System.out.println("************************ KẾT THÚC ***********************");
                     break;
                 case 0:
                     return;
