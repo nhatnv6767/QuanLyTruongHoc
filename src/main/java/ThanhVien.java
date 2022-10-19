@@ -58,4 +58,10 @@ public class ThanhVien {
         this.noiSinh = Nhap.inputString("Nhập nơi sinh: ");
         this.diaChi = Nhap.inputString("Nhập địa chỉ: ");
     }
+
+    public void xuat() {
+        String tieuDe = String.format("%15s%15s%15s%15s",
+                this.hoTen, this.namSinh, this.noiSinh, this.diaChi);
+        System.out.print(tieuDe);
+    }
 }

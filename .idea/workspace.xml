@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="Class Nhap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HocSinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Nhap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThanhVien.java" afterDir="false" />
+    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="Class Thanh Vien">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Nhap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HocSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThanhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThanhVien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +48,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
@@ -71,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666180917774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Class Thanh Vien">
+      <created>1666181361586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666181361586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +94,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Class Nhap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Nhap" />
+    <MESSAGE value="Class Thanh Vien" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Thanh Vien" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
