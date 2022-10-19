@@ -1,3 +1,4 @@
+import java.time.Year;
 import java.util.Scanner;
 
 /*
@@ -51,6 +52,11 @@ public class GiaoVien extends ThanhVien {
         } while (!this.chuyenMon.equalsIgnoreCase("tự nhiên") && !this.chuyenMon.equalsIgnoreCase("xã hội"));
     }
 
+    public void tinhThamNien() {
+        int namHienTai = Year.now().getValue();
+        this.thamNien = namHienTai - this.namBatDauDay;
+    }
+
     @Override
     public void xuat() {
         super.xuat();
@@ -58,4 +64,5 @@ public class GiaoVien extends ThanhVien {
                 this.namBatDauDay, this.chuyenMon, this.thamNien);
         System.out.println(tieuDe);
     }
+
 }
