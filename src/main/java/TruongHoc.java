@@ -44,9 +44,9 @@ public class TruongHoc {
     public void nhap() {
         ThanhVien thanhVien;
         while (true) {
-            System.out.println("1. Học sinh");
-            System.out.println("2. Giáo viên");
-            System.out.println("3. Thoát");
+            System.out.println("1. -> Học sinh");
+            System.out.println("2. -> Giáo viên");
+            System.out.println("3. -> Thoát");
             int choice = Nhap.inputInt("Mời lựa chọn: ");
             int temptChoice = 0;
             switch (choice) {
@@ -102,6 +102,17 @@ public class TruongHoc {
             }
         }
         return dtbMaxHocSinh;
+    }
+
+    public ArrayList<HocSinh> timDSHocSinhDTBMax() {
+        float dtbMaxHS = timDTBMaxHocSinh();
+        ArrayList<HocSinh> dsDTBMax = new ArrayList<HocSinh>();
+        for (HocSinh hs : objDSHocSinh.getListHocSinh()) {
+            if (hs.getDiemTB() == dtbMaxHS) {
+                dsDTBMax.add(hs);
+            }
+        }
+        return dsDTBMax;
     }
 
     public static void sapXepDTBGiamDan(ArrayList<HocSinh> dsHocSinh, int left, int right) {
