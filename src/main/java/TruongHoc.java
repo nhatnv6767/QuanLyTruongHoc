@@ -54,9 +54,19 @@ public class TruongHoc {
                     thanhVien = new HocSinh();
                     thanhVien.nhap();
                     this.objDSHocSinh.getListHocSinh().add((HocSinh) thanhVien);
-//                    this.tinhDiemTB();
-
+                    this.tinhDiemTB();
+                    this.xepLoaiHS();
                     break;
+
+                case 2:
+                    thanhVien = new GiaoVien();
+                    thanhVien.nhap();
+                    this.objDSGiaoVien.getListGiaoVien().add((GiaoVien) thanhVien);
+                    this.tinhThamNien();
+                case 3:
+                    return;
+                default:
+                    System.out.println("Chỉ được chọn 1, 2, 3");
             }
         }
     }
@@ -117,4 +127,60 @@ public class TruongHoc {
         if (i < right)
             sapXepDTBGiamDan(dsHocSinh, i, right);
     }
+
+    public void quickSortDTB() {
+        sapXepDTBGiamDan(this.objDSHocSinh.getListHocSinh(),
+                0, this.objDSHocSinh.getListHocSinh().size() - 1);
+    }
+
+    // find another way
+    public void sapXepHSTheoABC(ArrayList<HocSinh> dsHocSinh) {
+        for (int i = 0; i < dsHocSinh.size() - 1; i++) {
+            for (int j = dsHocSinh.size() - 1; j > i; j--) {
+                if (dsHocSinh.get(j).getHoTen().compareToIgnoreCase(dsHocSinh.get(j - 1).getHoTen()) < 0) {
+                    Collections.swap(dsHocSinh, j - 1, j);
+                }
+            }
+        }
+    }
+
+    public void bubbleSortTen() {
+        sapXepHSTheoABC(this.objDSHocSinh.getListHocSinh());
+    }
+
+    public ArrayList<GiaoVien> timGVThamNienCaoNhat() {
+        ArrayList<GiaoVien> listGVThamNienCaoNhat = new ArrayList<GiaoVien>();
+        int viTriMax = 0;
+        for (int i = 1; i < objDSGiaoVien.getListGiaoVien().size() - 1; i++) {
+            int thamNienDangXet = objDSGiaoVien.getListGiaoVien().get(i).getThamNien();
+            int thamNienCaoNhat = objDSGiaoVien.getListGiaoVien().get(viTriMax).getThamNien();
+            if (thamNienDangXet > thamNienCaoNhat) {
+                viTriMax = i;
+            }
+        }
+
+        for (int i = viTriMax; i < objDSGiaoVien.getListGiaoVien().size(); i++) {
+            int thamNienDangXet = objDSGiaoVien.getListGiaoVien().get(i).getThamNien();
+            int thamNienCaoNhat = objDSGiaoVien.getListGiaoVien().get(viTriMax).getThamNien();
+            if (thamNienDangXet == thamNienCaoNhat) {
+                GiaoVien gv = objDSGiaoVien.getListGiaoVien().get(i);
+                listGVThamNienCaoNhat.add(gv);
+            }
+        }
+
+        return listGVThamNienCaoNhat;
+    }
+
+    // gv > 5 nam va thuoc khoi tu nhien
+    public ArrayList<GiaoVien> timGVHon5NamThuocKhoiTuNhien() {
+        ArrayList<GiaoVien> dsGiaoVien = new ArrayList<GiaoVien>();
+        for (GiaoVien gv : this.objDSGiaoVien.getListGiaoVien()) {
+            if (gv.getThamNien() > 5 && gv.getChuyenMon().equalsIgnoreCase("tự nhiên")) {
+                dsGiaoVien.add(gv);
+            }
+        }
+        return dsGiaoVien;
+    }
+
+
 }

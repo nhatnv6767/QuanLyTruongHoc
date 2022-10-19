@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="Truong Hoc">
+    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="Truong Hoc 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TruongHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TruongHoc.java" afterDir="false" />
     </list>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666188341826</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Truong Hoc 2">
+      <created>1666188742366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666188742366</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +157,8 @@
     <MESSAGE value="Danh sach hoc sinh" />
     <MESSAGE value="Danh Sach Giao Vien" />
     <MESSAGE value="Truong Hoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Truong Hoc" />
+    <MESSAGE value="Truong Hoc 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Truong Hoc 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
