@@ -51,6 +51,10 @@ public class HocSinh extends ThanhVien {
 
     }
 
+    public HocSinh() {
+
+    }
+
     @Override
     public void nhap() {
         super.nhap();
