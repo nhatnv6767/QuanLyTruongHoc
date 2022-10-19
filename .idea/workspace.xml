@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="Class Thanh Vien">
+    <list default="true" id="15a5ea3c-d8ac-4211-97d5-a3a19bededd0" name="Changes" comment="Class Hoc Sinh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HocSinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThanhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThanhVien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666181361586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Class Hoc Sinh">
+      <created>1666182188894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666182188894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,7 +101,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Class Nhap" />
     <MESSAGE value="Class Thanh Vien" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Thanh Vien" />
+    <MESSAGE value="Class Hoc Sinh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Hoc Sinh" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

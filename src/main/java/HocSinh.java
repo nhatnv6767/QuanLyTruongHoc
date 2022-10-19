@@ -59,5 +59,17 @@ public class HocSinh extends ThanhVien {
         System.out.println(tieuDe);
     }
 
+    public void tinhDiemTB() {
+        this.diemTB = (this.diemToan + this.diemVan + this.diemNgoaiNgu) / 3;
+    }
 
+    public void xepLoai() {
+        this.xepLoai = this.diemTB >= 9 ? "Xuất sắc"
+                : this.diemTB >= 8 ? "Giỏi"
+                : this.diemTB >= 7 ? "Khá"
+                : this.diemTB >= 5 ? "Trung Bình"
+                : "Yếu";
+        
+
+    }
 }
