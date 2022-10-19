@@ -31,7 +31,7 @@ public class GiaoVien extends ThanhVien {
         return thamNien;
     }
 
-    public GiaoVien(String hoTen, String namSinh, String noiSinh, String diaChi, int namBatDauDay, String chuyenMon, int thamNien) {
+    public GiaoVien(String hoTen, String namSinh, String noiSinh, String diaChi, int namBatDauDay, String chuyenMon) {
         super(hoTen, namSinh, noiSinh, diaChi);
         this.namBatDauDay = namBatDauDay;
         this.chuyenMon = chuyenMon;

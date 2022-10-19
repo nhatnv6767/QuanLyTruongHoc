@@ -43,6 +43,14 @@ public class HocSinh extends ThanhVien {
         return xepLoai;
     }
 
+    public HocSinh(String hoTen, String namSinh, String noiSinh, String diaChi, float diemToan, float diemVan, float diemNgoaiNgu) {
+        super(hoTen, namSinh, noiSinh, diaChi);
+        this.diemToan = diemToan;
+        this.diemVan = diemVan;
+        this.diemNgoaiNgu = diemNgoaiNgu;
+
+    }
+
     @Override
     public void nhap() {
         super.nhap();
@@ -50,6 +58,7 @@ public class HocSinh extends ThanhVien {
         this.diemVan = Nhap.inputFloat("Nhập điểm văn: ");
         this.diemNgoaiNgu = Nhap.inputFloat("Nhập điểm ngoại ngữ: ");
     }
+
 
     @Override
     public void xuat() {
@@ -69,7 +78,7 @@ public class HocSinh extends ThanhVien {
                 : this.diemTB >= 7 ? "Khá"
                 : this.diemTB >= 5 ? "Trung Bình"
                 : "Yếu";
-        
+
 
     }
 }
