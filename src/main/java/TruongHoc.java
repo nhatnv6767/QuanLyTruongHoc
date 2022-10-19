@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 /*
@@ -63,6 +62,7 @@ public class TruongHoc {
                     thanhVien.nhap();
                     this.objDSGiaoVien.getListGiaoVien().add((GiaoVien) thanhVien);
                     this.tinhThamNien();
+                    break;
                 case 3:
                     return;
                 default:
@@ -123,7 +123,7 @@ public class TruongHoc {
             while (dsHocSinh.get(i).getDiemTB() > pivot) {
                 i++;
             }
-            while (dsHocSinh.get(i).getDiemTB() < pivot) {
+            while (dsHocSinh.get(j).getDiemTB() < pivot) {
                 j--;
             }
             if (i <= j) {
@@ -144,8 +144,9 @@ public class TruongHoc {
                 0, this.objDSHocSinh.getListHocSinh().size() - 1);
     }
 
-    // find another way
-    public void sapXepHSTheoABC(ArrayList<HocSinh> dsHocSinh) {
+
+    public void bubbleSortTenHS() {
+        ArrayList<HocSinh> dsHocSinh = this.objDSHocSinh.getListHocSinh();
         for (int i = 0; i < dsHocSinh.size() - 1; i++) {
             for (int j = dsHocSinh.size() - 1; j > i; j--) {
                 if (dsHocSinh.get(j).getHoTen().compareToIgnoreCase(dsHocSinh.get(j - 1).getHoTen()) < 0) {
@@ -153,10 +154,7 @@ public class TruongHoc {
                 }
             }
         }
-    }
 
-    public void bubbleSortTen() {
-        sapXepHSTheoABC(this.objDSHocSinh.getListHocSinh());
     }
 
     public ArrayList<GiaoVien> timGVThamNienCaoNhat() {

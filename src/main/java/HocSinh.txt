@@ -1,15 +1,15 @@
-Chiêu * Bùi Bích # 2003 # Hải Phòng # Phường Nghĩa Xá, Quận Lê Chân # 8 # 7 # 6
-Long * Cung Thăng # 2003 # Trà Vinh # Xã Hiếu Tử, Huyện Tiểu Cần # 9 # 10 # 9
-Phi * Bá Ðức # 2003 # Bến Tre # 777 Hàm Rồng # 8 # 4 # 5
-Quyết * Đậu Ngọc # 2003 # Bến Tre # Xã An Định, Huyện Mỏ Cày Nam # 9 # 7 # 6.5
-Tuyết * Sầm Ánh # 2003 # Bắc Ninh # Xã Trừng Xá, Huyện Lương Tài # 10 # 7.5 # 6
-Phong * Phương Chiêu # 2003 # Hậu Giang # Xã Phú An, Huyện Châu Thành # 8 # 5.5 # 6
-Mỹ * Tiếp Kiều # 2003 # Cần Thơ # Phường Bình Thủy, Quận Bình Thuỷ # 8 # 7 # 6.5
-Trang * Biện Kiều # 2003 # Cao Bằng # Xã Tam Kim, Huyện Nguyên Bình # 8 # 7 # 6
-Trân * Phong Liên # 2003 # Thái Nguyên # Xã Tân Quang, Thành phố Sông Công # 8 # 7 # 6
-Hiếu * Tuấn Chí # 2003 # Hậu Giang # Phường Ngã Bảy, Thị xã Ngã Bảy # 8.5 # 7 # 6
-Phương * Quang Quỳnh # 2003 # Quảng Ninh # Xã Đạp Thanh, Huyện Ba Chẽ # 8 # 7 # 6
-Hiển * Xung Ngọc # 2003 # Phú Yên # Xã Hòa Hiệp Nam, Huyện Đông Hòa # 8 # 7 # 6.5
-Hưng * Thịnh Phú # 2003 # Nghệ An # Xã Xiêng My, Huyện Tương Dương # 9 # 7.5 # 6
-Ngà * Ngọc Thu # 2003 # Quảng Ninh # Xã Hạ Long, Huyện Vân Đồn # 8 # 7.5 # 5.5
-Tuyết * Tôn Ngọc # 2003 # Hoà Bình # Xã Bình Sơn, Huyện Kim Bôi # 10 # 7 # 6.5
+Chiêu # 2003/06/08 # Hải Phòng # Phường Nghĩa Xá, Quận Lê Chân # 8 # 7 # 6
+Long # 2003/06/08 # Trà Vinh # Xã Hiếu Tử, Huyện Tiểu Cần # 9 # 10 # 9
+Phi # 2003/06/08 # Bến Tre # 777 Hàm Rồng # 8 # 4 # 5
+Quyết # 2003/06/08 # Bến Tre # Xã An Định, Huyện Mỏ Cày Nam # 9 # 7 # 6.5
+Tuyết # 2003/04/08 # Bắc Ninh # Xã Trừng Xá, Huyện Lương Tài # 10 # 7.5 # 6
+Phong # 2003/06/08 # Hậu Giang # Xã Phú An, Huyện Châu Thành # 8 # 5.5 # 6
+Mỹ # 2003/06/01 # Cần Thơ # Phường Bình Thủy, Quận Bình Thuỷ # 8 # 7 # 6.5
+Trang # 2003/06/08 # Cao Bằng # Xã Tam Kim, Huyện Nguyên Bình # 8 # 7 # 6
+Trân # 2003/06/08 # Thái Nguyên # Xã Tân Quang, Thành phố Sông Công # 8 # 7 # 6
+Hiếu # 2003/06/08 # Hậu Giang # Phường Ngã Bảy, Thị xã Ngã Bảy # 8.5 # 7 # 6
+Phương # 2003/06/08 # Quảng Ninh # Xã Đạp Thanh, Huyện Ba Chẽ # 8 # 7 # 6
+Hiển # 2003/05/08 # Phú Yên # Xã Hòa Hiệp Nam, Huyện Đông Hòa # 8 # 7 # 6.5
+Hưng # 2003/06/08 # Nghệ An # Xã Xiêng My, Huyện Tương Dương # 9 # 7.5 # 6
+Ngà # 2003/01/08 # Quảng Ninh # Xã Hạ Long, Huyện Vân Đồn # 8 # 7.5 # 5.5
+Tuyết # 2003/06/08 # Hoà Bình # Xã Bình Sơn, Huyện Kim Bôi # 10 # 7 # 6.5

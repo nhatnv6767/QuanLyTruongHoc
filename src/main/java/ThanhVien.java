@@ -60,7 +60,7 @@ public class ThanhVien {
     }
 
     public void xuat() {
-        String tieuDe = String.format("%15s%15s%15s%15s",
+        String tieuDe = String.format("%10s%15s%18s%40s  ",
                 this.hoTen, this.namSinh, this.noiSinh, this.diaChi);
         System.out.print(tieuDe);
     }

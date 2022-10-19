@@ -92,7 +92,7 @@ public class Nhap {
     public static String inputDate() {
         String result = "";
         do {
-            System.out.print("Enter date (yyyy/MM/dd): ");
+            System.out.print("Nhập vào ngày tháng năm sinh (yyyy/MM/dd): ");
             result = scan.nextLine();
         } while (!isSimpleValidateDate(result));
         return result;

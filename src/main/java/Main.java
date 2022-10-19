@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-
+        doMenu();
     }
 
     public static void inMenu() {
@@ -21,15 +21,15 @@ public class Main {
 
     public static void doMenu() {
         TruongHoc th = new TruongHoc();
-        String tieuDeHS = String.format("%15s%15s%15s%15s%5s%5s%5s%5s%5s",
+        String tieuDeHS = String.format("%10s%15s%18s%40s%8s%8s%12s%14s%15s",
                 "Họ tên", "Năm sinh", "Nơi sinh", "Địa chỉ",
-                "Điểm Toán", "Điểm Văn", "Điểm Ngoại Ngữ",
-                "Điểm Trung Bình", "Xếp Loại"
+                "Đ.Toán", "Đ.Văn", "Đ.Ngoại Ngữ",
+                "ĐTB", "Xếp Loại"
         );
 
-        String tieuDeGV = String.format("%15s%15s%15s%15s%5s%15s%5s",
+        String tieuDeGV = String.format("%10s%15s%18s%40s%13s%20s%17s",
                 "Họ tên", "Năm sinh", "Nơi sinh", "Địa chỉ",
-                "Năm bắt đầu", "Chuyên môn", "Thâm niên"
+                "Năm bắt đầu", "Chuyên môn", "Thâm niên (năm)"
         );
         th.taoDuLieu();
         th.tinhThamNien();
@@ -90,7 +90,7 @@ public class Main {
                 case 9:
                     System.out.println("*********** Danh sách học sinh theo thứ tự ABC ***********");
                     System.out.println(tieuDeHS);
-                    th.bubbleSortTen();
+                    th.bubbleSortTenHS();
                     th.xuatDSHocSinh();
                     break;
                 case 0:

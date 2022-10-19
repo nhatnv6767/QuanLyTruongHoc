@@ -67,13 +67,14 @@ public class HocSinh extends ThanhVien {
     @Override
     public void xuat() {
         super.xuat();
-        String tieuDe = String.format("%5s%5s%5s%5s%5s",
+        String tieuDe = String.format("%8s%8s%12s%14s%15s",
                 this.diemToan, this.diemVan, this.diemNgoaiNgu, this.diemTB, this.xepLoai);
         System.out.println(tieuDe);
     }
 
     public void tinhDiemTB() {
-        this.diemTB = (this.diemToan + this.diemVan + this.diemNgoaiNgu) / 3;
+        float dtb = (this.diemToan + this.diemVan + this.diemNgoaiNgu) / 3;
+        this.diemTB = (float) (Math.round(dtb * 100.0) / 100.0);
     }
 
     public void xepLoai() {

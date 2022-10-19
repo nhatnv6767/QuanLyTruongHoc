@@ -60,7 +60,7 @@ public class GiaoVien extends ThanhVien {
     @Override
     public void xuat() {
         super.xuat();
-        String tieuDe = String.format("%5s%15s%5s",
+        String tieuDe = String.format("%13s%20s%17s",
                 this.namBatDauDay, this.chuyenMon, this.thamNien);
         System.out.println(tieuDe);
     }
