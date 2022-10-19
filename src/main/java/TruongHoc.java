@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
 /*
  * Mục đích: Các hàm, nghiệp vụ liên quan đến Truong hoc
  * Người tạo: Trần Thiện Tâm
@@ -90,5 +94,27 @@ public class TruongHoc {
         return dtbMaxHocSinh;
     }
 
+    public static void sapXepDTBGiamDan(ArrayList<HocSinh> dsHocSinh, int left, int right) {
+        float pivot = dsHocSinh.get((left + (right - left) / 2)).getDiemTB();
+        int i = left;
+        int j = right;
+        while (i <= j) {
+            while (dsHocSinh.get(i).getDiemTB() > pivot) {
+                i++;
+            }
+            while (dsHocSinh.get(i).getDiemTB() < pivot) {
+                j--;
+            }
+            if (i <= j) {
+                Collections.swap(dsHocSinh, i, j);
+                i++;
+                j--;
+            }
+        }
 
+        if (left < j)
+            sapXepDTBGiamDan(dsHocSinh, left, j);
+        if (i < right)
+            sapXepDTBGiamDan(dsHocSinh, i, right);
+    }
 }
